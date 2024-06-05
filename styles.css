@@ -1,1 +1,77 @@
 /* your code here */
+body{
+    background-color: rgb(66, 233, 66);
+
+}
+.product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 500px;
+    background-color: white;
+}
+
+.controls{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.product__photo{
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    position: relative;
+}
+.photo-container{
+    background-color:greenyellow ;
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.photo-main img{
+    width: 250px;
+    height: 250px;
+   left: 10px;
+   display: flex;
+   left: -20px;
+   top: 50px;
+   position: absolute;
+}
+.photo-album ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    right: 30px;
+    bottom: -90px;
+    /* background-color: rgb(98, 158, 211); */
+    position: absolute;
+    left: 10px;
+}
+.photo-album ul li{
+    border: 1px solid gray;
+    margin: 5px;
+}
+.variant ul{
+    display: flex;
+    list-style: none;
+}
+.variant ul li{
+    margin: 4px;
+}
+.variant ul li:hover{
+  border: 1px solid gray;
+  /* transition: 0.5s; */
+}
+.span{
+    color:gray;
+}
+h3{
+    color: gray;
+    
+}
